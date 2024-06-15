@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0px 200px;
+}
+.container > .title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 1.5em;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+body{
+    margin: 0px;
+    overflow-x: hidden !important;
+    font-family: Montserrat !important;
+    color: #000000;
+}
+.items-row{
+    display: flex;
+    justify-content: space-between;
+}
+.xe1{
+    flex-basis: 30%;
+}
+.name{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.price-offer{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.xe1 img{
+    width: 100%;
+    margin: 20px 0;
+}
+.btn_item a{
+    font-size: 14px;
+    text-transform: uppercase;
+    border-top: 1px solid #eeee;
+    border-bottom: 1px solid #eeee;
+}
+.btn_item a{
+    padding: 10px 10px;
+    display: block;
+    color: #343434;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+    justify-content: space-between;
+}
+.btn_item a:hover{
+    border-top: 1px solid #C3002F;
+    border-bottom: 1px solid #C3002F;
+    background: #C3002F;
+    color: #FFFFff !important;
+}
+.btn_item a:hover i{
+    color: #FFFFff !important;
+}
+.btn_item a i{
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    padding-left: 5px;
+    color: #C3002F;
+    font-size: 14px;
+}
+.fa-chevron-right:before {
+    content: "\f054";
+}
+.incentives > .title{
+    font-size: 25px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.incentives > .title ::before{
+    content: '';
+    background: url(../images/Sanpham/line.svg);
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    top: -15px;
+    left: 0;
+}
+.qc{
+    flex-basis: 30%;
+}
+.qc img{
+    width: 100%;
+    margin: 20px 0;
+}
+.view-detail{
+    margin: 20px 0;
+}
+.view-detail a{
+    display: block;
+    width: 50%;
+    font-size: 15px;
+    color: #343434;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: #eeee;
+}
+.view-detail a i{
+    padding-left: 10px;
+    font-size: 13px;
+    color: #C3002F;
+}
