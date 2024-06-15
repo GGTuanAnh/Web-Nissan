@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0px;
+    overflow-x: hidden !important;
+    font-family: Montserrat, sans-serif !important;
+    color: #000000;
+}
+.container {
+    margin: 0;
+    padding: 0;
+}
+.dv-main{
+    margin: 0;
+    position: relative;
+}
+.dv-main> img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.dv-main1{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 20%;
+    left: 10%;
+    width: 100%;
+    max-width: 540px;
+    padding: 20px 30px;
+}
+.dv-main1 h2{
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.dv-main1 h4{
+    color: #fff;
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 0;
+    line-height: normal;
+}
+.more{
+    display: flex;
+    padding: 0px 90px;
+}
+.more a{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    display: block;
+    background: #C3002F;
+    color: #FFFFFF !important;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+    justify-content: space-between;
+}
+.more a i {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    padding-left: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.title2{
+    
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.dv-hen{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.dv-hen1{
+   width: 35%;
+}
+.dv-hen1 h4{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 20px 0;
+    text-align: center;
+    line-height: normal;
+}
+.dv-und{
+    margin: 100px 250px ;
+    text-align: center;
+    
+}
+.lydo-sd{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.lydo-sd1{
+    padding: 0px 15px;
+}
+.lydo-sd1 h3{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 20px 0;
+    color: #000000;
+    text-align: center;
+    line-height: normal;
+    height: 64px;
+}
+.lydo-sd1 h4{
+    font-size: 14px;
+    color: #000000;
+    margin: 20px 0;
+    text-align: center;
+    line-height: normal;
+}
