@@ -97,7 +97,7 @@ html {
 }
 .menu li {
     list-style: none;
-    font-size: 22px;
+    font-size: 20px;
 }
 header {
     display: flex;
@@ -116,8 +116,8 @@ header {
     position: relative;
     font-size: 23px;
     display: block;
-    width: 250px;
-    height: 75px;
+    width: 230px;
+    height: 65px;
     top: 100px;
     left: 60px;
     color: #ffff;
@@ -127,13 +127,14 @@ header {
 .btn a {
     width: 100%;
     height: 100%;
+    font-size: 20px;
 }
 .btn:hover {
     background-color: #9b0606;
     color: #ffff;
 }
 body {
-    font-family:  Montserrat !important;
+    font-family: 'Poppins', sans-serif;
     background-color: #ffff;
 }
 .menu {
@@ -195,9 +196,9 @@ section #carouselExampleControls {
     width: 100%;
     margin: 0 auto;
 }
-aside h1 {
-    margin-left: 50px;
-    font-size: 35px;
+aside h2 {
+    margin-left: 70px;
+    font-size: 27px;
 }
 .btn2 {
     background-color: #c3002f;
@@ -230,24 +231,74 @@ aside h1 {
     align-items: center;
     justify-content: space-around;
 }
-.main-product-right {
+
+.main-product-right1 {
     width: 25%;
     margin-bottom: 60px;
 }
-.main-product-right p {
+.main-product-right1 p {
     font-size: 18px;
 }
-.main-product-right h3 {
+.main-product-right1 h3 {
     margin-bottom: 20px;
 }
-.main-product-left {
+.main-product-left1 {
     width: 70%;
     object-fit: cover;
 }
-.main-product-left img {
+.main-product-left1 img {
     width: 100%;
     height: 100%;
     cursor: pointer;
+}
+
+
+.main-product-right2 {
+    width: 25%;
+    margin-bottom: 60px;
+    display: none;
+}
+.main-product-right2 p {
+    font-size: 18px;
+}
+.main-product-right2 h3 {
+    margin-bottom: 20px;
+}
+.main-product-left2 {
+    display: none;
+    width: 70%;
+    object-fit: cover;
+}
+.main-product-left2 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+.main-product-right3 {
+    width: 25%;
+    margin-bottom: 60px;
+    display: none;
+}
+.main-product-right3 p {
+    font-size: 18px;
+}
+.main-product-right3 h3 {
+    margin-bottom: 20px;
+}
+.main-product-left3 {
+    display: none;
+    width: 70%;
+    object-fit: cover;
+}
+.main-product-left3 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.active1 {
+    display: block !important;
 }
 .download {
     background-color: #eeeeee;
@@ -273,7 +324,7 @@ aside h1 {
     justify-content: center;
     background-color: #f1f1f1;
     gap: 40px;
-    margin-top: -90px;
+    margin-top: -70px;
     height: 400px;
 }
 .item-one,
@@ -337,7 +388,8 @@ aside h1 {
     align-items: center;
     white-space: nowrap;
 }
-.infor-content h4 {
+.infor-content a h4 {
+    color: #232323;
     padding-bottom: 20px;
 }
 .infor-content:hover h4 {
@@ -347,7 +399,7 @@ aside h1 {
     width: 70px;
     height: 100px;
 }
-.infor-content img {
+.infor-content a img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -358,9 +410,9 @@ aside h1 {
     margin: 30px auto;
 }
 .discover h1 {
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 30px;
-    font-size: 35px;
+    font-size: 27px;
 }
 .discover-content {
     display: flex;
@@ -723,4 +775,111 @@ thead {
 }
 .day {
     color: #333;
+}
+
+
+/* đăng ký lái thử */
+.dang-ky {
+    width: 37%;
+    gap: 20px;
+    margin-top: 40px;
+}
+.dang-ky h1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 20px 0px;
+}
+.title-bottom{
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom: 20px;
+}
+.title-bottom p {
+    text-align: center;
+}
+.select-car h4 {
+    margin-bottom: 40px;
+}
+.tinh {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.tinh input {
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+}
+.tinh .bi {
+    cursor: pointer;
+    font-size: 20px;
+    color: #c3002f;
+    background-color: #fff;
+    width: 10%;
+    height: 40px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #333;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+.infor-contact {
+    color: #333;
+}
+.contact-for-work input{
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.option {
+    margin-top: 10px;
+}
+.option select {
+    width: 40%;
+    height: 40px;
+    font-size: 17px;
+    padding-left: 10px;
+    border: 1px solid #25B24A;
+    outline: none;
+}
+.receive {
+    margin-top: 40px;
+    border-top: 1px dashed #c1c1c1;
+    padding-top: 20px;
+}
+.check {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.check input {
+    margin-top: 5px;
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+.choose {
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px dashed #c1c1c1;
+}
+.submit button{
+    width: 100%;
+    padding: 20px;
+    background-color: #c3002f;
+    color: #ffff;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
 }
