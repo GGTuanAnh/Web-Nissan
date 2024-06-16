@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.header{
+    display: flex;
+    margin-right: 30px;
+}
+.logo{
+    width: 128px;
+    margin: 20px 0px 5px 50px;
+}
+.menu {
+    width: 100%;
+    font-size: 14px;
+}
+.menu-top{
+    border-bottom: 1px solid #333;
+    margin-top: 20px;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+.menu-top .nav-link {
+    padding: 10px 10px; /* Giảm khoảng cách giữa các mục menu */
+    display: block;
+    transition: color 0.3s;
+    margin-right: 15px; /* Đặt margin-right là 0 để cân đối với trang */
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 21px;
+}
+.nav-link:hover {
+    color: #ff0000;
+}
+.menu-bottom{
+    margin-top: 5px;
+}
+.MX {
+    margin-left: 10px;
+}
+.content{
+    text-align: center;
+    margin-top: 15px;
+}
+.title_content{
+    font-size: 48px;
+    margin: 10px 0px;
+}
+.action{
+    display: flex;
+    margin: 0px 175px;
+    position: relative;
+}
+.buoc{
+    flex-basis: 33%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.buoc img{
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+.buoc p{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.buoc .buoc-a{
+    color: #ff0000;
+    font-size: 20px;
+}
+.buoc .title{
+    font-size: 25px;
+}
+.buoc .p{
+    position: relative;
+    top: -60px;
+}
+.buoc1 img{
+    width: 100%;
+    position: relative;
+    top: -100px;
+}
+.buoc1 p{
+    padding-bottom: 15px;
+    width: 460px;
+}
+.buoc1 .buoc-a{
+    color: #ff0000;
+    font-size: 20px;
+}
+.buoc1 .title{
+    font-size: 35px;
+    color: white;
+}
+.buoc1 .p{
+    position: relative;
+    top: -550px;
+    color: white;
+    font-size: 16px;
+}
+.dongxe{
+    position: relative;
+    top: -180px;
+    margin: 0px 175px;
+}
+.gachngang{
+    border-bottom: 5px solid red;
+    margin-right: 1100px;
+    margin-bottom: 15px;
+}
+.dongxe .title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.dongxe .xe{
+    display: flex;
+    margin: 0px 200px;
+    
+}
+.xe1{
+    margin: 5px 20px;
+}
