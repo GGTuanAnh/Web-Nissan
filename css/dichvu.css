@@ -17,6 +17,14 @@ body {
     font-family: Montserrat, sans-serif !important;
     color: #000000;
 }
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 64px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    font-size: 48px;
+}
 .container {
     margin: 0;
     padding: 0;
@@ -101,10 +109,61 @@ body {
     text-align: center;
     line-height: normal;
 }
+.btn-hen{
+    background-color: #c3002f;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px 20px;
+    color: #fff;
+    width: max-content;
+    margin: auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: normal;
+    margin-bottom: 80px ;
+}
+
+.btn-hen a{
+    color: #fff;
+}
+.btn-hen p{
+    font-size: 15px;
+}
 .dv-und{
     margin: 100px 250px ;
     text-align: center;
     
+}
+.title3{
+    position: relative;
+}
+.title3 h3{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: start;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.title3 h3::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #c3002f;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.title3 p img{
+    width: 100vw !important;
+    height: auto !important;
+    margin-left: calc((1170px - 100vw) / 2);  
 }
 .lydo-sd{
     display: flex;
@@ -123,10 +182,64 @@ body {
     line-height: normal;
     height: 64px;
 }
-.lydo-sd1 h4{
+.dv-und h4{
     font-size: 14px;
     color: #000000;
     margin: 20px 0;
+    padding: 30px 0;
     text-align: center;
     line-height: normal;
+}
+.expend{
+    background: #eeeeee;
+    padding: 80px 0;
+}
+.title4 {
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+.expend1{
+    margin: 0 100px;
+}
+.action{
+    text-align: center;
+    display: flex;
+    grid-gap: 10px;
+    justify-content: space-between;
+}
+.action a{
+    display: flex;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.action a span{
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.action a::after{
+    display: block;
+    content: "";
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #c3002f;
+}
+.action a:hover::after{
+    display: block;
 }

@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.header{
+    display: flex;
+    margin-right: 30px;
+}
+.logo{
+    width: 128px;
+    margin: 20px 0px 5px 50px;
+}
+.menu {
+    width: 100%;
+    font-size: 14px;
+}
+.menu-top{
+    border-bottom: 1px solid #333;
+    margin-top: 20px;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+.menu-top .nav-link {
+    padding: 10px 10px; /* Giảm khoảng cách giữa các mục menu */
+    display: block;
+    transition: color 0.3s;
+    margin-right: 15px; /* Đặt margin-right là 0 để cân đối với trang */
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 21px;
+}
+.nav-link:hover {
+    color: #ff0000;
+}
+.menu-bottom{
+    position: relative;
+}
+.menu-bottom .nav-link {
+    padding: 10px 10px; /* Giảm khoảng cách giữa các mục menu */
+    display: block;
+    transition: color 0.3s;
+    margin-right: 25px; /* Đặt margin-right là 0 để cân đối với trang */
+    text-align: left;
+    line-height: 21px;
+}
+.LH {
+    position: relative;
+    top: -30px;
+    margin-left: 10px;
+}
+.body{
+    margin: 0px 440px;
+}
+.content{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.content h1{
+    font-size: 48px;
+    margin: 50px 0px;
+}
+.content p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.gachngang{
+    border-bottom: 1px solid #33333363;
+    margin-bottom: 30px;
+}
+.container p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label{
+    margin-right: 10px;
+    font-weight: bold;
+}
+.form-group input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    transition: color 0.3s;
+}
+.form-group select{
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    transition: color 0.3s;
+}
+.form-group textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    transition: color 0.3s;
+    margin-bottom: 30px;
+}
+.form-group input:hover {
+    border-color: #f0f0f0;
+}
+.form-group select:hover {
+    border-color: #f0f0f0;
+}
+.form-group textarea:hover {
+    border-color: #f0f0f0;
+}
+.checkbox{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+.checkbox label{
+    margin-left: 10px;
+}
+.checkbox input{
+    width: 25px;
+    height: 25px;
+}
+.submit{
+    width: 100%;
+    padding: 15px;
+    background-color: #FF0000;
+    color: white;
+    font-size: 16px;
+    position: relative;
+}
+.submit::after {
+    content: '>';
+    position: absolute;
+    right: 15px;
+    font-size: 18px;
+}
+

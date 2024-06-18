@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.header{
+    display: flex;
+    margin-right: 30px;
+}
+.logo{
+    width: 128px;
+    margin: 20px 0px 5px 50px;
+}
+.menu {
+    width: 100%;
+    font-size: 14px;
+}
+.menu-top{
+    border-bottom: 1px solid #333;
+    margin-top: 20px;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+.menu-top .nav-link {
+    padding: 10px 10px; /* Giảm khoảng cách giữa các mục menu */
+    display: block;
+    transition: color 0.3s;
+    margin-right: 15px; /* Đặt margin-right là 0 để cân đối với trang */
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 21px;
+}
+.nav-link:hover {
+    color: #ff0000;
+}
+.menu-bottom{
+    position: relative;
+}
+.menu-bottom .nav-link {
+    padding: 10px 10px; /* Giảm khoảng cách giữa các mục menu */
+    display: block;
+    transition: color 0.3s;
+    margin-right: 25px; /* Đặt margin-right là 0 để cân đối với trang */
+    text-align: left;
+    line-height: 21px;
+}
+.LH {
+    position: relative;
+    top: -30px;
+    margin-left: 10px;
+}
+.title_content{
+    font-size: 48px;
+    text-align: center;
+    margin: 0px 0px 30px;
+    line-height: 64px;
+}
+.container1{
+    margin: 0px 175px 50px 175px;
+}

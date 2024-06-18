@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none !important;
+    color: #c3002f;
+}
+body {
+    margin: 0px;
+    overflow-x: hidden !important;
+    font-family: Montserrat, sans-serif !important;
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+body a{
+    color: #000;;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 64px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+.container{
+    margin: 10px 200px;
+}
+.agency_infor{
+    float: left;
+    width: 35%;
+}
+.search{
+    padding: 20px;
+    background: #000000;
+}
+.search form input{
+    float: left;
+    height: 44px;
+    width: 80%;
+    padding-left: 10px;
+    border: none;
+}
+.search form input:focus{
+    outline: none;
+}
+.search form button{
+    float: left;
+    height: 44px;
+    width: 20%;
+    background-color: #C3002F;
+    box-shadow: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+form>div{
+    display: flex;
+}
+.search form button i{
+    font-size: 25px;
+    color: #ffffff;
+}
+.fa{
+    display: inline-block;
+}
+.list_agency{
+    padding: 0px 20px 20px 20px;
+    display: inline-block;
+    background: #F9F9F9;
+    overflow-y: scroll;
+    height: 620px; 
+}
+.item{
+    display: inline-block;
+    padding: 20px 0;
+    border-bottom: 1px solid #CCCCCC;  
+}
+.item .icon_logo{
+    float: left;
+    width: 20%;
+}
+.item .info_agency{
+    float: left;
+    width: 80%;
+}
+.name_agency{
+    font-size: 14px;
+    font-family: MontserratBold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.phone_agency{
+    padding: 10px 0;
+    font-size: 14px;
+    color: #343434;
+}
+.fa-phone{
+    color: #C3002F;
+    padding-right: 10px;
+    font-size: 17px;
+}
+.fa-chevron-right{
+    color: #C3002F;
+    padding-left: 30px;
+}
+.address_agency{
+    font-size: 14px;
+    line-height: 23px;
+    color: #343434;
+}
+.detail_agency{
+    font-size: 14px;
+    color: #343434;
+    line-height: 23px;
+    padding: 10px 0;
+}
+.list_agency::-webkit-scrollbar {
+    width: 4px;
+    color: #ffffff;
+}
+.list_agency::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+.map{
+    float: left;
+    width: 60%;
+}
