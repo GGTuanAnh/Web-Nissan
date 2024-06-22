@@ -69,3 +69,66 @@ document.querySelectorAll('.item_slide').forEach((colorItem, index) => {
         document.querySelector('.name_color').textContent = colorName;
     });
 });
+
+
+// const listdesign = document.querySelector('.slide_design');
+// const item_design = document.getElementsByClassName('item_design');
+// let current = 0;
+// const length = item_design.length;
+
+// setInterval(() => {
+//     // Calculate the width of an item
+//     let width1 = item_design[0].offsetWidth;
+
+//     // Check if the current item is the last one
+//     if(current === length - 1) {
+//         // If it is the last one, reset to the first item
+//         listdesign.style.transform = `translateX(0px)`;
+//         current = 0; // Reset the current index to 0
+//     } else {
+//         // Move to the next item
+//         current++;
+//         listdesign.style.transform = `translateX(${width1 * -current}px)`;
+//     }
+// }, 4000);
+const slides = document.querySelectorAll('.item_design');
+const prevBtn = document.querySelector('.design-btn img:first-child');
+const nextBtn = document.querySelector('.design-btn img:last-child');
+let currentSlide = 0;
+
+function showSlide(n) {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (n + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
+  
+    // Kiểm tra vị trí hiện tại và cập nhật trạng thái của các nút điều hướng
+    prevBtn.classList.toggle('disabled', currentSlide === 0);
+    nextBtn.classList.toggle('disabled', currentSlide === slides.length - 1);
+  }
+  
+  prevBtn.addEventListener('click', () => {
+    if (currentSlide > 0) {
+      showSlide(currentSlide - 1);
+    }
+  });
+  
+  nextBtn.addEventListener('click', () => {
+    if (currentSlide < slides.length - 1) {
+      showSlide(currentSlide + 1);
+    }
+  });
+
+
+  const thietkeLink = document.querySelector('.thietke');
+
+  // Add a click event listener to the "Thiết kế" link
+  thietkeLink.addEventListener('click', (event) => {
+    // Prevent the default link behavior
+    event.preventDefault();
+  
+    // Scroll the page down by 1000 pixels
+    window.scrollBy({
+      top: 3950,
+      behavior: 'smooth'
+    });
+  });
