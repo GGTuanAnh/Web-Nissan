@@ -132,3 +132,30 @@ function showSlide(n) {
       behavior: 'smooth'
     });
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const questions = document.querySelectorAll(".question");
+
+    questions.forEach(question => {
+        const clickModel = question.querySelector(".clickmodel");
+        const content = question.querySelector(".content-q");
+        const openIcon = question.querySelector(".open-icon");
+        const closeIcon = question.querySelector(".close-icon");
+
+        clickModel.addEventListener("click", function() {
+            const isOpen = content.style.display === "block";
+
+            if (isOpen) {
+                content.style.display = "none";
+                openIcon.style.display = "block";
+                closeIcon.style.display = "none";
+                clickModel.classList.remove("active");
+            } else {
+                content.style.display = "block";
+                openIcon.style.display = "none";
+                closeIcon.style.display = "block";
+                clickModel.classList.add("active");
+            }
+        });
+    });
+});
