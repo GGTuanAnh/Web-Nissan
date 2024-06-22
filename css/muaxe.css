@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, sans-serif !important;
 }
 a{
     text-decoration: none;
@@ -32,10 +32,10 @@ a{
     justify-content: flex-end;
 }
 .menu-top .nav-link {
-    padding: 10px 10px; /* Giảm khoảng cách giữa các mục menu */
+    padding: 10px 10px; 
     display: block;
     transition: color 0.3s;
-    margin-right: 15px; /* Đặt margin-right là 0 để cân đối với trang */
+    margin-right: 15px; 
     text-transform: uppercase;
     text-align: left;
     line-height: 21px;
@@ -89,9 +89,13 @@ a{
 }
 .buoc1 img{
     width: 100%;
+    object-fit: cover;
     position: relative;
     top: -100px;
 }
+.buoc1{
+    width: 100%;
+} 
 .buoc1 p{
     padding-bottom: 15px;
     width: 460px;
@@ -109,6 +113,8 @@ a{
     top: -550px;
     color: white;
     font-size: 16px;
+    text-align: center;
+    
 }
 .dongxe{
     position: relative;
@@ -131,4 +137,319 @@ a{
 }
 .xe1{
     margin: 5px 20px;
+}
+.buoc2 img{
+    width: 100%;
+    position: relative;
+    top: -100px;
+}
+.buoc2 p{
+    padding-bottom: 15px;
+    width: 460px;
+}
+.buoc2 .buoc-a{
+    color: #ff0000;
+    font-size: 20px;
+}
+.buoc2 .title{
+    font-size: 35px;
+    color: white;
+}
+.buoc2 .p{
+    position: relative;
+    top: -550px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    float: right;
+}
+.dutoan{
+    position: relative;
+    top: -50px;
+    margin: 0px 175px;
+}
+.dutoan .title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.dutoan .thongtin{
+    font-size: 25px;
+    margin: 15px 0px;
+}
+.thongtinxe{
+    display: flex;
+}
+.left{
+    flex-basis: 50%;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label{
+    margin-right: 10px;
+    font-weight: bold;
+}
+.form-group select{
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    transition: color 0.3s;
+}
+.form-group select:hover {
+    border-color: #f0f0f0;
+}
+.btn {
+    background-color: red;
+    position: relative;
+    font-size: 15px;
+    display: block;
+    width: 250px;
+    padding: 10px;
+}
+.btn a {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+.btn:hover {
+    background-color: #9b0606;
+    color: #ffff;
+}
+.btn .bi {
+    font-size: 15px;
+}
+.right{
+    flex-basis: 45%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.right p{
+    margin-bottom: 15px;
+}
+.right .gachchan{
+    border-bottom: 1px solid #3333333a;
+}
+.right h5{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.buoc3 img{
+    width: 100%;
+    position: relative;
+}
+.buoc3 p{
+    padding-bottom: 15px;
+    width: 460px;
+}
+.buoc3 .buoc-a{
+    color: #ff0000;
+    font-size: 20px;
+}
+.buoc3 .title{
+    font-size: 35px;
+    color: white;
+}
+.buoc3 .p{
+    position: relative;
+    top: -450px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.button{
+    display: flex;
+    position: relative;
+    top: -150px;
+    margin-left: 400px;
+}
+.button1{
+    margin-left: 15px;
+}
+.button1 .btn1 {
+    background-color: red;
+    position: relative;
+    font-size: 15px;
+    display: block;
+    width: 250px;
+    padding: 10px;
+}
+.button1 .btn1 a {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+.button1 .btn1:hover {
+    background-color: #9b0606;
+    color: #ffff;
+}
+.btn1 .bi {
+    font-size: 15px;
+}
+footer {
+    width: 100%;
+    background-color: #232323;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+    
+}
+.footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 175px;
+}
+.footer-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-btt {
+    width: calc(100%-30%);
+    margin-top: 25px;
+}
+.footer-title {
+    width: 25%;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact li a {
+    color: #ffff;
+    font-size: 14px;
+}
+.social {
+    width: 25%;
+    gap: 10px;
+}
+.social h4 {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.contact-social {
+    display: flex;
+    gap: 10px;
+}
+.contact-social a {
+    color: #ffff;
+}
+.contact-social .bi {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background: #c1c1c1;
+}
+.footer-btt-content strong,
+.footer-btt-content p {
+    font-size: 15px;
+}
+.footer-btt-content {
+    display: flex;
+    gap: 7px;
+    margin-top: 5px;
+}
+.footer-btt {
+    margin-top: 30px;
+}
+.footer-btt-bottom {
+    background-color: #343434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: #ffff;
+    padding: 10px;
+}
+.totop {
+    position: fixed;
+    bottom: -100px;
+    right: 0%;
+    z-index: 1;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.totop img {
+    width: 44px;
+    height: 44px;
+}
+.list-options {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-icons {
+    position: fixed;
+    bottom: 100px;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.list-icons li img {
+    border-bottom: 1px solid #ffff;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+.list-options .list-titles {
+    padding-left: 0px;
+    display: none;
+}
+.list-titles {
+    background-color: #f5f5f5;
+    position: fixed;
+    bottom: 100px;
+    right: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+.list-titles li {
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+.list-titles li a {
+    width: 100%;
+    height: 44px;
+    color: #333;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 0 10px 0px;
+    padding-left: 20px;
+    margin-bottom: 4px;
+}
+.list-titles li:not(:last-child) a {
+    border-bottom: 1px solid #ffffff;
+}
+.list-titles li a:hover {
+    padding-left: 20px;
+    width: 100%;
+    background-color: #c3002f;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid #ffff;
 }
