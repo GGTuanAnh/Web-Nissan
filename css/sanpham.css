@@ -42,7 +42,7 @@ a {
 .nav-link:hover {
     color: #ff0000;
 }
-.nav-link:focus{
+.nav-link.sanpham{
     color: #ff0000;
 }
 .menu-bottom{
