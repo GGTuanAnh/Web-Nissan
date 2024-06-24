@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Montserrat, sans-serif !important;
 }
+html {
+    scroll-behavior: smooth; /*liên kết nội trang mượt mà */
+}
 a{
     text-decoration: none;
     color: #333;
