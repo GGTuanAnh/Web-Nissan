@@ -158,4 +158,4 @@ function showSlide(n) {
             }
         });
     });
-});
+})
