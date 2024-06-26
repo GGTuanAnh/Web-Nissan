@@ -543,7 +543,6 @@ body {
 }
 .content-q{
     margin: 20px 0;
-    transition: height 0.5s ease;
     color: rgba(82, 80, 80, 0.758);
 }
 .close-icon{
